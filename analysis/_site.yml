@@ -1,7 +1,7 @@
-name: "wflow-darkly"
+name: wflow-darkly
 output_dir: ../docs
 navbar:
-  title: "wflow-darkly"
+  title: wflow-darkly
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/jdblischak/wflow-darkly
 output:
   workflowr::wflow_html:
     toc: yes
