@@ -8,4 +8,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+A workflowr website using the [Bootswatch](https://bootswatch.com/3/) theme
+Darkly.
+
+```{r}
+packageVersion("workflowr")
+packageVersion("rmarkdown")
+```
+
